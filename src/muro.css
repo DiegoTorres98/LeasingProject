@@ -1,0 +1,180 @@
+.principal_muro {
+    display: flex;
+    height: 100vh;
+}
+
+
+.side_bar {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: calc(100% - 60px);
+    padding-top: 60px;
+    background-color: #204EA1;
+    color:#FFFFFF;
+}
+
+.logoD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.inicio {
+    display: flex;
+    padding-left: 45px;
+}
+
+.inicio:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.leasing {
+    display: flex;
+    padding-left: 45px;
+}
+
+.leasing:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.historial {
+    display: flex;
+    padding-left: 45px;
+}
+
+.historial:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.border {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 57px;
+    border-style: solid;
+    width: 100px;
+    border-color: #FFFFFF;
+}
+
+.config {
+    padding-top: 100px;
+}
+
+.ayuda {
+    display: flex;
+    padding-left: 45px;
+    margin-top: 50px;
+}
+
+.ayuda:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.configuracion {
+    display: flex;
+    padding-left: 45px;
+}
+
+.configuracion:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.cerrar_sesion {
+    display: flex;
+    padding-left: 45px;
+}
+
+.cerrar_sesion:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.bienvenido {
+    margin-left: 30px;
+}
+
+.bienvenidos:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 8px;
+}
+
+.usuario {
+    margin-left: 8px;
+}
+
+.user_together {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 5px;
+}
+
+.user_together:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 200px);
+    align-items: center;
+    background-color: #ACACAC;
+    color:#FFFFFF;
+}
+
+.welcome_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .clipcito {
+        width: 400px;
+        margin-top: 50px;
+    }
+}

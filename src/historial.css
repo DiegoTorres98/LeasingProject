@@ -1,0 +1,35 @@
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 200px);
+    align-items: center;
+    background-color: #ACACAC;
+    color:#FFFFFF;
+}
+
+.header2 {
+    background-color: #204EA1;
+    color:#FFFFFF;
+}
+
+.header2_names {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.lng1, .lng3, .lng5, .lng7 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color:#333333;
+    background-color: #EFEFEF;
+}
+
+.lng2, .lng4, .lng6,.lng8 {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color:#333333;
+    background-color: #ACACAC;
+}

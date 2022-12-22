@@ -1,0 +1,49 @@
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_logo {
+    padding-top: 140px;
+}
+
+.register_write {
+    padding-top: 140px;
+}
+
+input {
+    background-color: #EDEDF2;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.button_register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+
+    background: #4C76E2;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    width: 165px;
+    height: 25px;
+    left: 80px;
+    top: 405px;
+}
+
+.button_register:hover {
+    cursor: pointer;
+    background: whitesmoke;
+    color: #333333;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+
+
