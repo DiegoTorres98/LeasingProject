@@ -7,6 +7,8 @@ import Muro from './muro';
 import Historial from './historial';
 import Configuration from './configuration';
 import Usuario from './usuario';
+import Ayuda from './ayuda';
+import Leasing1 from './leasing1';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import {Routes} from "react-router-dom"
@@ -23,6 +25,8 @@ root.render(
       <Route path="/historial" element={<Historial />}/>
       <Route path="/configuration" element={<Configuration />}/>
       <Route path="/usuario" element={<Usuario />}/>
+      <Route path="/ayuda" element={<Ayuda />}/>
+      <Route path="/leasing1" element={<Leasing1 />}/>
     </Routes>
 
   </BrowserRouter>,
