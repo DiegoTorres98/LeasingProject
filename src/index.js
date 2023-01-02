@@ -9,6 +9,10 @@ import Configuration from './configuration';
 import Usuario from './usuario';
 import Ayuda from './ayuda';
 import Leasing1 from './leasing1';
+import Leasing2 from './leasing2';
+import Calcular1 from './calcular1';
+import Calcular2 from './calcular2';
+import CuadroFinal from './cuadrofinal';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import {Routes} from "react-router-dom"
@@ -27,6 +31,10 @@ root.render(
       <Route path="/usuario" element={<Usuario />}/>
       <Route path="/ayuda" element={<Ayuda />}/>
       <Route path="/leasing1" element={<Leasing1 />}/>
+      <Route path="/leasing2" element={<Leasing2 />}/>
+      <Route path="/calcular1" element={<Calcular1 />}/>
+      <Route path="/calcular2" element={<Calcular2 />}/>
+      <Route path="/cuadrofinal" element={<CuadroFinal />}/>
     </Routes>
 
   </BrowserRouter>,
