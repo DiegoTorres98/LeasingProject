@@ -1,0 +1,48 @@
+.box_leasingbk2 {
+    justify-content: center;
+    align-items: center;
+    background: #c0c0cb;   
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-bottom: 20px;
+
+    padding: 10px 100px;
+}
+
+.lng_costnot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lng_costregi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lng_tasacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lng_comiestudio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lng_comiactiva {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inp1, .inp2, .inp3, .imp4, .imp5 {
+    justify-content: center;
+    align-items: center;
+}

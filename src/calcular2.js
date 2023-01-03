@@ -3,6 +3,7 @@ import home from './imagenes/home.svg';
 import wallet from './imagenes/wallet-alt.svg';
 import receipt from './imagenes/receipt.svg';
 import user_circle from './imagenes/user-circle.svg';
+import vector2 from './imagenes/Vector2.png';
 import './calcular2.css';
 
 function Calcular2() {
@@ -52,11 +53,59 @@ function Calcular2() {
             </div>
 
             <div className='box_leasing1'>
-                <div>
-                    <h1> RESULTADOS 2 </h1>
+                <div className='tittle_bl'>
+                    <img className='imagenflecha2' style={{marginRight:"0px"}} src={vector2}/>
+                    <div className='resultados'>
+                        <p> RESULTADOS </p>
+                    </div>
+                    
                 </div>
 
-                <div className='box_leasingbk'> 
+                <div className='indicaRenta'>
+                    <p> Indicadores de Rentabilidad </p>
+                </div>
+
+                <div className='box_leasingcal1'> 
+                    <div className='cal_TCEAFB'>
+                        <p>TCEA Flujo Bruto</p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_TCEAFN'>
+                        <p>TCEA Flujo Neto  </p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_TREAFB'>
+                        <p>TREA Flujo Bruto</p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_TREAFN'>
+                        <p>TREA Flujo Neto</p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_seguriesgo'>
+                        <p>Seguro Contra todo Riesgo</p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_comiperiodica'>
+                        <p>Comisiones Periódicas </p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_recompra'>
+                        <p>Recompra </p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_reembolsototal'>
+                        <p>Reembolso Total</p>
+                        <input type="text"/>
+                    </div>
+
                     
 
                 </div>

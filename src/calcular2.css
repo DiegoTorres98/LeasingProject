@@ -1,0 +1,43 @@
+.indicaRenta {
+    padding: 0 75px;
+}
+
+.cal_TCEAFB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_TCEAFN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cal_TREAFB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cal_TREAFN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_comiperiodica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_recompra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_reembolsototal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

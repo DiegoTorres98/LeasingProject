@@ -3,6 +3,7 @@ import home from './imagenes/home.svg';
 import wallet from './imagenes/wallet-alt.svg';
 import receipt from './imagenes/receipt.svg';
 import user_circle from './imagenes/user-circle.svg';
+import vector from './imagenes/Vector.png';
 import './calcular1.css';
 
 function Calcular1() {
@@ -51,13 +52,63 @@ function Calcular1() {
 
             </div>
 
-            <div className='box_leasing1'>
-                <div>
-                    <h1> RESULTADOS 1 </h1>
+            <div className='box_leasingcal1'>
+                <div className='tittle_bl'>
+                    <div className='resultados'>
+                        <p> RESULTADOS </p>
+                    </div>
+                    <img className='imagenflecha' style={{marginRight:"0px"}} src={vector}/>
                 </div>
 
-                <div className='box_leasingbk'> 
+                <div className='arrendamiento'>
+                    <p> Arrendamiento </p>
+                </div>
+
+                <div className='box_leasingcal1'> 
+                    <div className='cal_IGV'>
+                        <p>IGV</p>
+                        <input type="text"/>
+                    </div>
                     
+                    <div className='cal_valorVentaA '>
+                        <p>Valor Venta de Activo</p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_montlea'>
+                        <p>Monto del Leasing</p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_TEP'>
+                        <p>% de TEP</p>
+                        <input type="text"/>
+                    </div>
+                    
+                    <div className='cal_cuotasAnho'>
+                        <p>N° Cuotas por Año</p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_totalcuotas'>
+                        <p>N° Total de cuotas </p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_seguriesgo'>
+                        <p>Seguro de Riesgo</p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_intereses'>
+                        <p>Intereses</p>
+                        <input type="text"/>
+                    </div>
+
+                    <div className='cal_amortcap'>
+                        <p>Amortización del Capital</p>
+                        <input type="text"/>
+                    </div>
 
                 </div>
                 

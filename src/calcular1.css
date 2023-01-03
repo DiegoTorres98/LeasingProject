@@ -1,0 +1,97 @@
+.box_leasingcal1 {
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-bottom: 35px;
+}
+
+.box_leasingcal1 {
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;   
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding: 0px 70px;
+}
+
+.tittle_bl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 50px;
+}
+
+.resultados {
+    text-align: center;
+    width: 100%;
+}
+
+.arrendamiento {
+    padding: 0 75px;
+}
+
+.cal_IGV {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_valorVentaA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_montlea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_TEP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_cuotasAnho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_totalcuotas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal_seguriesgo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.cal_intereses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.cal_amortcap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+

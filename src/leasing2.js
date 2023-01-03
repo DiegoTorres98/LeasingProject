@@ -56,8 +56,55 @@ function Leasing2() {
                     <h1> Datos de los costes / Gastos iniciales </h1>
                 </div>
 
-                <div className='box_leasingbk'> 
-                    
+                <div className='box_leasingbk2'>
+                    <div className='lng_costnot'>
+                        <p>Costos notariales</p>
+                        <input className='inp1' type="text"/>
+                    </div>
+
+                    <div className='lng_costregi'>
+                        <p>% Costos Registrales</p>
+                        <input className='inp2' type="text"/>
+                        <select name='opc_frepag'>
+                            <option value={'value1'}>PERRO</option>
+                            <option value={'value2'}>PERROS</option>
+                            <option value={'value3'}>PERRITOS</option>
+                        </select>
+                    </div>
+
+                    <div className='lng_tasacion'>
+                        <p>% Tasación</p>
+                        <input className='inp3' type="text"/>
+                        <select name='opc_frepag'>
+                            <option value={'value1'}>PERRO</option>
+                            <option value={'value2'}>PERROS</option>
+                            <option value={'value3'}>PERRITOS</option>
+                        </select>
+                    </div>
+
+                    <div className='lng_comiestudio'>
+                        <p>% Comisión de estudio</p>
+                        <input className='inp4' type="text"/>
+                        <select name='opc_frepag'>
+                            <option value={'value1'}>PERRO</option>
+                            <option value={'value2'}>PERROS</option>
+                            <option value={'value3'}>PERRITOS</option>
+                        </select>
+                    </div>
+
+                    <div className='lng_comiactiva'>
+                        <p>% Comisión de activación </p>
+                        <input className='inp5' type="text"/>
+                        <select name='opc_frepag'>
+                            <option value={'value1'}>PERRO</option>
+                            <option value={'value2'}>PERROS</option>
+                            <option value={'value3'}>PERRITOS</option>
+                        </select>
+                    </div>
+
+                    <div className='button_lng'>
+                        <button className='lng_button'> Calcular </button>
+                    </div>
 
                 </div>
                 
